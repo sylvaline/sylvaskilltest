@@ -35,6 +35,11 @@ So i created a simple react application that can be used by scientist to experim
 - - A beautiful looking UI will also tell a user that the result of the predication is consistant with the  hypthosis, it will also ask the user if the want to allow the result to be tested five times more to be very certian or not now option.
 - - A feature i didn't implement is to save that proven scientific theory to the books of theory data list.
 
+### Questions
+- I didn't understand alot of things in the Calibration SOP pdf
+- I don't understand yet how the hypothesis can be collected in a real word situation and put into a technology, i guess is done using Iot but i don't know how.
+- I didn't ask my questions earlier because, from the code challange pdf, i saw that i have less or equal to 8 hours to do the test, so i decided to ask after. Normally, i will ask before i start the project.
+
 
 ## Conclusion
 This is the second time i'm using a markdown to write something, the first time i did it was when i was learning to write notes online instead of always looking the pen, i hate that part. You can see the thing i wrote if you like [my first markdown note](https://sylvasblog.com/). Had to get that out of my chest because i don't know how well this my makedown read me will go.
