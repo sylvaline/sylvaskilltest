@@ -7,7 +7,7 @@ A scientific Iot platform is needed to execute and automate laboratory experimen
 
 ## The solution
 
-So i created a simple react application that can be used by scientist to experiment a hypothesis and if the testable data that was provided is consistant with the hypothesis, then we will have to run the software again for five time to check if the results are still the same then we will declare we have a scientific theory. 
+So i created a simple react application that can be used by scientist to experiment a hypothesis and if the testable data that was provided is consistant with the hypothesis, then we will have to run the software again for five time to check if the results are still the same then we will declare we have a scientific theory. 100% user friendly and mobile friendly.
 
 ### Tools i used
 
@@ -43,4 +43,6 @@ So i created a simple react application that can be used by scientist to experim
 
 ## Conclusion
 This is the second time i'm using a markdown to write something, the first time i did it was when i was learning to write notes online instead of always looking the pen, i hate that part. You can see the thing i wrote if you like [my first markdown note](https://sylvasblog.com/). Had to get that out of my chest because i don't know how well this my makedown read me will go.
+
+I'm very teachable and i love to learn, I know the solution i have presented may not be the best but i'm ready to learn and refactor the code, if given the chance.
 
