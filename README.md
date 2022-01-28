@@ -23,6 +23,8 @@ So i created a simple react application that can be used by scientist to experim
 - I didn't use any CSS framework (Personally, I love the creativity and flexibility just CSS gives when building app. So if there's time, i love to build the CSS from ground up else i will use Tailwind CSS)
 
 - The code might not be the best optimised but when given enough time, i will refactor my code untill i'm proud to show someone.
+- I didn't pay much attention to color because I wasn't told any color.
+- I would have added animations and page transitions if it was a real life project.
 
 ### Process
 
