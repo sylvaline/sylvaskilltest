@@ -1,5 +1,5 @@
 # Welcome to Sylva's Skill Test.
-[View the solution online](https://sylvasblog.com/).
+[View the solution live](https://61f437f445ac8a46ddb9cfbf--eloquent-poincare-3daf56.netlify.app/).
 
 ## The problem
 
