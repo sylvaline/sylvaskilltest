@@ -5,6 +5,7 @@
     background-color: rgba(53, 53, 53, 0.308);
     top: 0rem;
     height: 100vh;
+    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +13,7 @@
     .modal_inner{
         width: 50%;
         margin: auto;
-        background-color: rgb(226, 225, 225);
+        background-color: rgb(252, 252, 252);
         border-radius: .3rem;
         padding: 2rem 1rem;
         text-align: center;
@@ -41,7 +42,9 @@
 
         @media screen and (max-width:40rem) {
             width: 90%;
-            margin: auto;
+            margin: -3rem auto !important;
+            padding: 3rem 1rem;
+
         }
     }
     
