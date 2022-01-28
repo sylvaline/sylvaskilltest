@@ -86,7 +86,7 @@ function StartPage({ history }) {
                 <div className="input_style">
                     {
                         isMobile ? <div className={on_obs_out ? "textarea mouse_out" : "textarea"}>
-                        <textarea placeholder="What's your observation?" value={observation} onChange={(e) => {setObservation(e.target.value); onObsMouseOut()}} rows="2" cols="23"></textarea> 
+                        <textarea placeholder="What's your observation?" value={observation} onChange={(e) => {setObservation(e.target.value); onObsMouseOut()}} rows="2" cols="24"></textarea> 
                     </div>
                         : <div className={on_obs_out ? "textarea mouse_out" : "textarea"}>
                             <textarea placeholder="What's your observation?" value={observation} onChange={(e) => {setObservation(e.target.value); onObsMouseOut()}} rows="3" cols="50"></textarea>
@@ -98,7 +98,7 @@ function StartPage({ history }) {
                 <div className="input_style">
                     {
                         isMobile ? <div className="textarea">
-                            <textarea placeholder="What's your hypothesis?" value={hypothesis} onChange={(e) => setHypothesis(e.target.value)} rows="6" cols="23">
+                            <textarea placeholder="What's your hypothesis?" value={hypothesis} onChange={(e) => setHypothesis(e.target.value)} rows="6" cols="24">
 
                             </textarea>
                         </div> : <div className="textarea">
