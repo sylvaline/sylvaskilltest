@@ -24,9 +24,20 @@ body{
     button{
         padding: .5rem 1rem;
         border-radius: .2rem;
+        border: none;
+        font-size: 1.1rem;
+        outline: none;
+        color: white;
+        background-color: gray;
+        transition: all .5s linear;
+
+        &:hover{
+            background-color: rgb(92, 92, 92);
+        }
 
         @media screen and (max-width:40rem) {
-            padding: .2rem 1rem;
+            padding: .4rem 1rem;
+            
             
         }
     }
