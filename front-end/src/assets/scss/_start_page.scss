@@ -1,0 +1,61 @@
+.start_page{
+    width: 70%;
+    height: 90vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    @media screen and (max-width:40rem) {
+
+        padding: 1rem !important;
+    }
+}
+
+.input{
+    .input_style{
+        margin-bottom: .5rem;
+        transition: all .5s linear;
+
+        textarea{
+            border: .1rem solid $input_border;
+            border-radius: .4rem;
+            padding: 1rem;
+            font-size: 1.1rem;
+            
+
+            &::placeholder{
+                text-align: center;
+            }
+            &:focus{
+                outline-color:  $input_focus_border ;
+            }
+        }
+
+        & .mouse_out{
+            textarea{
+                border: .1rem solid $input_focus_border;
+            }
+        }
+    }
+
+    .input_btn{
+        background-color: $input_btn;
+        padding: .5rem 1rem;
+        text-transform: uppercase;
+        width: 40%;
+        text-align: center;
+        cursor: pointer;
+        border-radius: .2rem;
+        
+       
+
+        @media screen and (max-width:40rem) {
+            width: 80%;
+            margin: auto;
+        }
+        
+    }
+
+    
+}

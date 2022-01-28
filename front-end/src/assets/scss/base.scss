@@ -1,0 +1,52 @@
+
+@import"variable";
+@import"experiment";
+@import"start_page";
+@import"footer";
+@import"loader";
+@import"popup";
+@import"modal";
+
+
+
+
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   font-family:poppins, Arial,sans-seri;
+    color: rgba(0, 0, 0, 0.726);
+    background-color: $main_bg;
+
+    button{
+        padding: .5rem 1rem;
+        border-radius: .2rem;
+
+        @media screen and (max-width:40rem) {
+            padding: .2rem 1rem;
+            
+        }
+    }
+
+    .seperator{
+        min-width: 1rem !important;
+        display: inline-block;
+
+        @media screen and (max-width:40rem) {
+            min-height: 1rem !important;
+            display: inline-block;
+        }
+    }
+    .margin_t_on_win{
+        a{
+            color: #000;
+            text-decoration: none;
+        }
+    @media screen and (min-width:60rem) {
+        
+            margin-top: .5rem !important;
+    }
+}}

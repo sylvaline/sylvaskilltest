@@ -1,0 +1,85 @@
+.experiment{
+    width: 100%;
+
+    .experiment_btn{
+        text-align: right;
+        margin-top: 2rem !important;
+        margin-right: 2rem;
+
+        button{
+            padding: .5rem 1rem;
+        }
+
+        @media screen and (max-width:40rem){
+            margin-left: 1rem;
+        }
+        
+    }
+
+    .fa-arrow-down{
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        
+    }
+
+    .experiment_top{
+        width: 40%;
+        margin: 8rem auto 4rem;
+        height: 60vh;
+
+        @media screen and (max-width:40rem) {
+            width: 90%;
+            margin: 8rem auto 2rem;
+        }
+        
+        
+        .experiment_box{
+            display: flex;
+            background-color: gray;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 1rem;
+            padding: .5rem;
+            color: white;
+
+            
+
+            .experiment_box_completed{
+                margin-left: .5rem;
+                i{
+                    color: green;
+                }
+            }
+        }
+    }
+
+    .experiment_process{
+        margin-top: 2rem;
+        .process_title{
+            text-decoration: underline;
+            margin-bottom: 1.5rem;
+            text-align: center;
+
+            
+        }
+        background-color: rgb(238, 238, 238);
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 3rem;
+
+        .inner_ul{
+            margin-left: 1rem;
+        }
+
+        @media screen and (max-width:40rem) {
+            font-size: .9rem;
+            padding: 3rem 1.5rem;
+        }
+        
+    }
+    
+}

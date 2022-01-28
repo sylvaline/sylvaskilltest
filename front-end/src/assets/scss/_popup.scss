@@ -1,0 +1,15 @@
+.popup{
+    position: absolute;
+    top: 1rem;
+    // background-color: gray;
+    // background-color: red;
+    font-size: .8rem;
+    color: white;
+    padding: .5rem 2rem;
+    transform: translateY(-50%);
+    transition: all .5s linear;
+
+    & .open{
+        transform: translateY(-50%);
+    }
+}

@@ -1,0 +1,17 @@
+.footer{
+    background-color: $footer_bg;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: all .5s linear;
+    font-size: .8rem;
+    font-family:poppins, Arial,sans-seri;
+
+    @media screen and (max-width:40rem) {
+        font-size: .7rem;
+    }
+
+}

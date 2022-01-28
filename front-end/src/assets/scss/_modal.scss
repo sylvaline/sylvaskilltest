@@ -1,0 +1,56 @@
+.modal{
+    
+    position: fixed;
+    width: 100%;
+    background-color: rgba(53, 53, 53, 0.308);
+    top: 0rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .modal_inner{
+        width: 50%;
+        margin: auto;
+        background-color: rgb(226, 225, 225);
+        border-radius: .3rem;
+        padding: 2rem 1rem;
+        text-align: center;
+        box-shadow: .5rem .5rem .5rem rgba(116, 116, 116, 0.548);
+
+        h3{
+            position: relative;
+            span{
+                position: absolute;
+                top: 0;
+                right: 7rem;
+                color: red;
+
+                @media screen and (max-width:40rem) {
+                    right: 2rem ;
+                }
+
+            }
+        }
+
+        p{
+            margin: .5rem 0 1rem 0;
+            font-size: .8rem;
+            color: $text_color;
+        }
+
+        @media screen and (max-width:40rem) {
+            width: 90%;
+            margin: auto;
+        }
+    }
+    
+}
+
+
+.left_on_mobile{
+    
+    @media screen and (max-width:40rem) {
+        margin-top: .5rem;
+    }
+}
