@@ -21,6 +21,12 @@ body{
     color: rgba(0, 0, 0, 0.726);
     background-color: $main_bg;
 
+    @media screen and (max-width:40rem) {
+        padding: .2rem 1rem;
+        
+        
+    }
+
     button{
         padding: .5rem 1rem;
         border-radius: .2rem;
