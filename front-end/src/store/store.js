@@ -16,8 +16,8 @@ const devTools = () => {
 
 const reduxDevTools = devTools()
 
-const store = createStore(rootReducer, initialState, compose(applyMiddleware(thunk), reduxDevTools))
+// const store = createStore(rootReducer, initialState, compose(applyMiddleware(thunk), reduxDevTools))
 
-// const store = createStore(rootReducer, initialState, compose(applyMiddleware(thunk)))
+const store = createStore(rootReducer, initialState, compose(applyMiddleware(thunk)))
 
  export default store
