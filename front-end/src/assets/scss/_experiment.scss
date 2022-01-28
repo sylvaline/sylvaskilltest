@@ -6,13 +6,19 @@
         margin-top: 2rem !important;
         margin-right: 2rem;
 
+        .home_btn{
+            margin-right: .5rem;
+            a{
+                color: black;
+                text-decoration: none;
+            }
+        }
+
         button{
             padding: .5rem 1rem;
         }
 
-        @media screen and (max-width:40rem){
-            margin-left: 1rem;
-        }
+        
         
     }
 

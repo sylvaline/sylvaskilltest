@@ -4,10 +4,9 @@ import Modal from './elements/Modal';
 import {experiment_completed} from '../store/actions/experimentAction'
 import Textarea from '../components/elements/Textarea';
 import Button from '../components/elements/Button'
+import {Link} from 'react-router-dom';
 
-const ExperimentBox = (title, detail)=>{
 
-}
 // This component is responsible for managing our expirements
 function Experiment() {
 
@@ -58,7 +57,7 @@ console.log("experimenting "+experimenting)
     setExperiment_result(true)
     setExperiment_visibility(true)
 
-    // For checking when our counter value have changed
+    // For looping until we have reached 5 times
     for(let i=1;i<=5; i++){
       
       setTimeout(()=>{
@@ -84,7 +83,8 @@ console.log("experimenting "+experimenting)
 
   return <div className="experiment"> 
       <div className="experiment_btn">
-        <button onClick={()=>setProcessSwitch(!processSwitch)}>Change experiment process</button>
+      <button className='home_btn'><Link to="/">Home</Link></button>
+        <button onClick={()=>setProcessSwitch(!processSwitch)}>Change process</button>
       </div>
       {
         processSwitch ? <div>
